@@ -1,0 +1,109 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+.head{
+  background-image: url("../images/soup.jpg");
+  background-color: #cccccc;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom ;
+  position: relative;
+}
+.head-text{
+  color: white;
+  font-weight:lighter ;
+  text-align: center;
+  padding-top: 127px;
+  letter-spacing: 5px;
+  font-size: 106px;
+  font-weight: 350;
+}
+.text{
+  margin: 90px;
+  margin-left: 160px;
+  margin-right: 160px;
+  font-size:32px ;
+  font-weight: 100;
+  color:rgb(79, 78, 78);
+}
+.list ul{
+  display:flex;  
+  list-style:none;
+}
+.list img{
+  width: 28px;
+}
+
+.list ul li{
+  margin-left: 36px;
+}
+.list ul li img{
+  margin-left: 10px;
+}
+.list{
+  text-align: center;
+  position: relative;
+  left: 450px;
+  color: rgb(79, 78, 78);
+}
+.line{
+  margin-top: 50px;
+  margin-left: 160px;
+  margin-right: 160px;
+  height: 1px;
+  background-color:rgb(79, 78, 78);
+}
+.ing p{
+  font-size:39px ;
+  font-weight: 400;
+}
+.ing ul{
+  list-style-type: '-';
+  color: rgb(79, 78, 78);
+}
+.time ul{
+  display:flex;  
+  list-style:none;
+}
+.time img{
+  width: 40px;
+}
+.time ul li{
+  margin-left: 20px;
+}
+
+.time{
+  text-align: center;
+  position: relative;
+  left: 500px;
+  color: rgb(79, 78, 78);
+}
+.draw{
+  border-left:  solid rgba(79, 78, 78, 0.357);
+    height: 55px;
+    display: inline-block;
+}
+.dis{
+  margin: 90px;
+  margin-left: 160px;
+  margin-right: 160px;
+  font-size:32px ;
+  font-weight: 100;
+  color:rgb(79, 78, 78);
+}
+.dis p{
+  font-size:39px ;
+  font-weight: 400;
+}
+.dis ol{
+  list-style-type:" ";
+  color: rgb(79, 78, 78);
+  font-size: 28px;
+}
